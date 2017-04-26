@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF4C16A392B5340A3C398DB9E3C05DC /* XRCarouselView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4780ADF0F00777A0279A2EF2DDEE4987 /* XRCarouselView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD217D6AEF4CC40F4089F72BBE8D979 /* XRCarouselView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6B8B28366368DDE8390F97E45C1E9 /* XRCarouselView-dummy.m */; };
+		9807C342C935DF2E153E43888E05CE37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AE398CD6F6916E753CA5639D46771A89 /* Pods-DYScrollViewSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C92004B1B8A703CEDA56C2E3D6B416A /* Pods-DYScrollViewSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F6680195D1D130B4DA8EFCFE00F429 /* XRCarouselView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3FB3EFD3CB3EFEB830AAB93E9C0073 /* XRCarouselView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C631E12D5AB266180656DFE25A08EAC3 /* XRPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C8DF635373C4BCC31CC1DD3C4E39621F /* XRPlaceholder.png */; };
+		CE6E2FBD3ACCB4D83EEEEA5C9075E4BD /* Pods-DYScrollViewSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8E995DC71505134BBCB1A7836345F4 /* Pods-DYScrollViewSwift-dummy.m */; };
+		DB3FB30542F7739FEB3F7E696959398C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F09B000FEC1FFB1AA33787B49EB49774 /* XRCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6CB801C5D857897401F250B60FAE7 /* XRCarouselView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5576B215E5F26AC877A05B83D4DD8A88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58E7418EC633662B825775E961009C4B;
+			remoteInfo = XRCarouselView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0077AA5B8FD79C8559B22E157D847666 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3FB3EFD3CB3EFEB830AAB93E9C0073 /* XRCarouselView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRCarouselView.h; path = XRCarouselView/XRCarouselView.h; sourceTree = "<group>"; };
+		1F8E995DC71505134BBCB1A7836345F4 /* Pods-DYScrollViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYScrollViewSwift-dummy.m"; sourceTree = "<group>"; };
+		24B6B8B28366368DDE8390F97E45C1E9 /* XRCarouselView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XRCarouselView-dummy.m"; sourceTree = "<group>"; };
+		35A63E5DAEAD67974F364EC2C1B4C0D7 /* Pods-DYScrollViewSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYScrollViewSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C92004B1B8A703CEDA56C2E3D6B416A /* Pods-DYScrollViewSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYScrollViewSwift-umbrella.h"; sourceTree = "<group>"; };
+		3DC0FB35B474EC0CAE824EC2296F75A5 /* Pods-DYScrollViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYScrollViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		477C3DEEE882FC7148C043E974830A26 /* Pods-DYScrollViewSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYScrollViewSwift-frameworks.sh"; sourceTree = "<group>"; };
+		4780ADF0F00777A0279A2EF2DDEE4987 /* XRCarouselView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XRCarouselView-umbrella.h"; sourceTree = "<group>"; };
+		56E506DA951CA775CEC2CC2A7CA0B92F /* XRCarouselView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XRCarouselView-prefix.pch"; sourceTree = "<group>"; };
+		60B6CB801C5D857897401F250B60FAE7 /* XRCarouselView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XRCarouselView.m; path = XRCarouselView/XRCarouselView.m; sourceTree = "<group>"; };
+		77D0148F611F2DCA46285C856598AD64 /* XRCarouselView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XRCarouselView.xcconfig; sourceTree = "<group>"; };
+		8155E74D9FA50F6FB28352A4613B7954 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F060FDFAEF946F0CE59EE40DCB35C16 /* Pods-DYScrollViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DYScrollViewSwift.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C27C9E01723E5A16492344C649B190B /* XRCarouselView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XRCarouselView.modulemap; sourceTree = "<group>"; };
+		C6233BF9291F5CBE0E13E266D626DD59 /* Pods-DYScrollViewSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYScrollViewSwift-resources.sh"; sourceTree = "<group>"; };
+		C8DF635373C4BCC31CC1DD3C4E39621F /* XRPlaceholder.png */ = {isa = PBXFileReference; includeInIndex = 1; name = XRPlaceholder.png; path = XRCarouselView/XRPlaceholder.png; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD69BC0A5D3456953FDBD80AA9B3B1C6 /* Pods-DYScrollViewSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYScrollViewSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3546803153962018787A1C8D3C2F101 /* Pods_DYScrollViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYScrollViewSwift.framework; path = "Pods-DYScrollViewSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AC0A2AC461F2074BC22DC3F64CE025 /* XRCarouselView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XRCarouselView.framework; path = XRCarouselView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD99E506E21F5EDE104E3DA2C8464E73 /* Pods-DYScrollViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYScrollViewSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F75E4D3805EFAACC537D15D7077DF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9807C342C935DF2E153E43888E05CE37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B9B3CC6EA251F85BF67C9D7F8AFB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3FB30542F7739FEB3F7E696959398C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FF90F4EF588264BD9BE7EFCEA44E86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8DF635373C4BCC31CC1DD3C4E39621F /* XRPlaceholder.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A95D1D8E518FBAA0779CAD42762C78B4 /* Pods */,
+				86F4B09549A30F13B1DCAE14930AC9F7 /* Products */,
+				94931F4CD898CE647020BD904B08C146 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86F4B09549A30F13B1DCAE14930AC9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3546803153962018787A1C8D3C2F101 /* Pods_DYScrollViewSwift.framework */,
+				E5AC0A2AC461F2074BC22DC3F64CE025 /* XRCarouselView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94931F4CD898CE647020BD904B08C146 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB35472B84E15700E6730A7A2B59DE4 /* Pods-DYScrollViewSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96E68539D8D660F9E2EA8DD95323605B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8155E74D9FA50F6FB28352A4613B7954 /* Info.plist */,
+				9C27C9E01723E5A16492344C649B190B /* XRCarouselView.modulemap */,
+				77D0148F611F2DCA46285C856598AD64 /* XRCarouselView.xcconfig */,
+				24B6B8B28366368DDE8390F97E45C1E9 /* XRCarouselView-dummy.m */,
+				56E506DA951CA775CEC2CC2A7CA0B92F /* XRCarouselView-prefix.pch */,
+				4780ADF0F00777A0279A2EF2DDEE4987 /* XRCarouselView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XRCarouselView";
+			sourceTree = "<group>";
+		};
+		A95D1D8E518FBAA0779CAD42762C78B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4EC3451A99C96ABA87D3648A756D362 /* XRCarouselView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4EC3451A99C96ABA87D3648A756D362 /* XRCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				0F3FB3EFD3CB3EFEB830AAB93E9C0073 /* XRCarouselView.h */,
+				60B6CB801C5D857897401F250B60FAE7 /* XRCarouselView.m */,
+				22FF90F4EF588264BD9BE7EFCEA44E86 /* Resources */,
+				96E68539D8D660F9E2EA8DD95323605B /* Support Files */,
+			);
+			name = XRCarouselView;
+			path = XRCarouselView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB35472B84E15700E6730A7A2B59DE4 /* Pods-DYScrollViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0077AA5B8FD79C8559B22E157D847666 /* Info.plist */,
+				8F060FDFAEF946F0CE59EE40DCB35C16 /* Pods-DYScrollViewSwift.modulemap */,
+				DD69BC0A5D3456953FDBD80AA9B3B1C6 /* Pods-DYScrollViewSwift-acknowledgements.markdown */,
+				35A63E5DAEAD67974F364EC2C1B4C0D7 /* Pods-DYScrollViewSwift-acknowledgements.plist */,
+				1F8E995DC71505134BBCB1A7836345F4 /* Pods-DYScrollViewSwift-dummy.m */,
+				477C3DEEE882FC7148C043E974830A26 /* Pods-DYScrollViewSwift-frameworks.sh */,
+				C6233BF9291F5CBE0E13E266D626DD59 /* Pods-DYScrollViewSwift-resources.sh */,
+				3C92004B1B8A703CEDA56C2E3D6B416A /* Pods-DYScrollViewSwift-umbrella.h */,
+				3DC0FB35B474EC0CAE824EC2296F75A5 /* Pods-DYScrollViewSwift.debug.xcconfig */,
+				FD99E506E21F5EDE104E3DA2C8464E73 /* Pods-DYScrollViewSwift.release.xcconfig */,
+			);
+			name = "Pods-DYScrollViewSwift";
+			path = "Target Support Files/Pods-DYScrollViewSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		560C26BF748B1870399C4641218A5F25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE398CD6F6916E753CA5639D46771A89 /* Pods-DYScrollViewSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8880F7A4C1DAB20FFEF9929A05CE576 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF4C16A392B5340A3C398DB9E3C05DC /* XRCarouselView-umbrella.h in Headers */,
+				B2F6680195D1D130B4DA8EFCFE00F429 /* XRCarouselView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2EBA25A1573490A8D088FD68A559758B /* Pods-DYScrollViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919E9AE7824A97637E7CF9C87E56E31A /* Build configuration list for PBXNativeTarget "Pods-DYScrollViewSwift" */;
+			buildPhases = (
+				CDC968D60813B595F3C4871ABC861E66 /* Sources */,
+				A0B9B3CC6EA251F85BF67C9D7F8AFB3C /* Frameworks */,
+				560C26BF748B1870399C4641218A5F25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69211F9FF5C545B25B0F3F779B1CC6C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-DYScrollViewSwift";
+			productName = "Pods-DYScrollViewSwift";
+			productReference = E3546803153962018787A1C8D3C2F101 /* Pods_DYScrollViewSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58E7418EC633662B825775E961009C4B /* XRCarouselView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A0CB999C1C2766355C6847DCC93AFB /* Build configuration list for PBXNativeTarget "XRCarouselView" */;
+			buildPhases = (
+				48CBA1C96EFF109CBB31F5CDE34AC1E0 /* Sources */,
+				0F75E4D3805EFAACC537D15D7077DF05 /* Frameworks */,
+				D8880F7A4C1DAB20FFEF9929A05CE576 /* Headers */,
+				8379A99D0FCFFC8616790F458A9968B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XRCarouselView;
+			productName = XRCarouselView;
+			productReference = E5AC0A2AC461F2074BC22DC3F64CE025 /* XRCarouselView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 86F4B09549A30F13B1DCAE14930AC9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EBA25A1573490A8D088FD68A559758B /* Pods-DYScrollViewSwift */,
+				58E7418EC633662B825775E961009C4B /* XRCarouselView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8379A99D0FCFFC8616790F458A9968B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C631E12D5AB266180656DFE25A08EAC3 /* XRPlaceholder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48CBA1C96EFF109CBB31F5CDE34AC1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD217D6AEF4CC40F4089F72BBE8D979 /* XRCarouselView-dummy.m in Sources */,
+				F09B000FEC1FFB1AA33787B49EB49774 /* XRCarouselView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC968D60813B595F3C4871ABC861E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6E2FBD3ACCB4D83EEEEA5C9075E4BD /* Pods-DYScrollViewSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69211F9FF5C545B25B0F3F779B1CC6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XRCarouselView;
+			target = 58E7418EC633662B825775E961009C4B /* XRCarouselView */;
+			targetProxy = 5576B215E5F26AC877A05B83D4DD8A88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09F578312B71B9D2751A85AF7C1FC02F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D0148F611F2DCA46285C856598AD64 /* XRCarouselView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XRCarouselView/XRCarouselView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XRCarouselView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XRCarouselView/XRCarouselView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XRCarouselView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C1517F3F368D0C5E5FE47004E72E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD99E506E21F5EDE104E3DA2C8464E73 /* Pods-DYScrollViewSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYScrollViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYScrollViewSwift/Pods-DYScrollViewSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DYScrollViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB13E824B1123CF529013032B430C3DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC0FB35B474EC0CAE824EC2296F75A5 /* Pods-DYScrollViewSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DYScrollViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DYScrollViewSwift/Pods-DYScrollViewSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DYScrollViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC7A381B47E6831EAC196E51DAA8629B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D0148F611F2DCA46285C856598AD64 /* XRCarouselView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XRCarouselView/XRCarouselView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XRCarouselView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XRCarouselView/XRCarouselView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XRCarouselView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A0CB999C1C2766355C6847DCC93AFB /* Build configuration list for PBXNativeTarget "XRCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F578312B71B9D2751A85AF7C1FC02F /* Debug */,
+				DC7A381B47E6831EAC196E51DAA8629B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919E9AE7824A97637E7CF9C87E56E31A /* Build configuration list for PBXNativeTarget "Pods-DYScrollViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB13E824B1123CF529013032B430C3DE /* Debug */,
+				78C1517F3F368D0C5E5FE47004E72E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

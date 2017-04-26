@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545D34071EA88B5200B5D892 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 545D34061EA88B5200B5D892 /* Podfile */; };
+		545D340C1EA892D100B5D892 /* XRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545D340B1EA892D100B5D892 /* XRViewController.swift */; };
+		54AC05B21EA2763E00C34A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC05B11EA2763E00C34A75 /* AppDelegate.swift */; };
+		54AC05B41EA2763E00C34A75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC05B31EA2763E00C34A75 /* ViewController.swift */; };
+		54AC05B71EA2763E00C34A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AC05B51EA2763E00C34A75 /* Main.storyboard */; };
+		54AC05B91EA2763E00C34A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AC05B81EA2763E00C34A75 /* Assets.xcassets */; };
+		54AC05BC1EA2763E00C34A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AC05BA1EA2763E00C34A75 /* LaunchScreen.storyboard */; };
+		92E9E96C0535E2ED7E4F05CD /* Pods_DYScrollViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF4469B9530069B4CCC7933 /* Pods_DYScrollViewSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CE435D4B31E2FCF434A3DA0 /* Pods-DYScrollViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYScrollViewSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYScrollViewSwift/Pods-DYScrollViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		2CF4469B9530069B4CCC7933 /* Pods_DYScrollViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYScrollViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545D34061EA88B5200B5D892 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		545D34081EA8926600B5D892 /* DYScrollViewSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DYScrollViewSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		545D340B1EA892D100B5D892 /* XRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XRViewController.swift; sourceTree = "<group>"; };
+		54AC05AE1EA2763E00C34A75 /* DYScrollViewSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYScrollViewSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AC05B11EA2763E00C34A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54AC05B31EA2763E00C34A75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54AC05B61EA2763E00C34A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54AC05B81EA2763E00C34A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54AC05BB1EA2763E00C34A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54AC05BD1EA2763E00C34A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7903807BB073EE7B83FA48DA /* Pods-DYScrollViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYScrollViewSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYScrollViewSwift/Pods-DYScrollViewSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AC05AB1EA2763E00C34A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E9E96C0535E2ED7E4F05CD /* Pods_DYScrollViewSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35EE51AF14342680935F7A60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CE435D4B31E2FCF434A3DA0 /* Pods-DYScrollViewSwift.debug.xcconfig */,
+				7903807BB073EE7B83FA48DA /* Pods-DYScrollViewSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54AC05A51EA2763E00C34A75 = {
+			isa = PBXGroup;
+			children = (
+				545D34061EA88B5200B5D892 /* Podfile */,
+				54AC05B01EA2763E00C34A75 /* DYScrollViewSwift */,
+				54AC05AF1EA2763E00C34A75 /* Products */,
+				35EE51AF14342680935F7A60 /* Pods */,
+				DC027DDCA1F2BA043B41DB06 /* Frameworks */,
+				545D34081EA8926600B5D892 /* DYScrollViewSwift-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		54AC05AF1EA2763E00C34A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54AC05AE1EA2763E00C34A75 /* DYScrollViewSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54AC05B01EA2763E00C34A75 /* DYScrollViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				54AC05B11EA2763E00C34A75 /* AppDelegate.swift */,
+				54AC05B31EA2763E00C34A75 /* ViewController.swift */,
+				545D340B1EA892D100B5D892 /* XRViewController.swift */,
+				54AC05B51EA2763E00C34A75 /* Main.storyboard */,
+				54AC05B81EA2763E00C34A75 /* Assets.xcassets */,
+				54AC05BA1EA2763E00C34A75 /* LaunchScreen.storyboard */,
+				54AC05BD1EA2763E00C34A75 /* Info.plist */,
+			);
+			path = DYScrollViewSwift;
+			sourceTree = "<group>";
+		};
+		DC027DDCA1F2BA043B41DB06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF4469B9530069B4CCC7933 /* Pods_DYScrollViewSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AC05AD1EA2763E00C34A75 /* DYScrollViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AC05C01EA2763E00C34A75 /* Build configuration list for PBXNativeTarget "DYScrollViewSwift" */;
+			buildPhases = (
+				14A6BF4A71703DD92CC2A00C /* [CP] Check Pods Manifest.lock */,
+				54AC05AA1EA2763E00C34A75 /* Sources */,
+				54AC05AB1EA2763E00C34A75 /* Frameworks */,
+				54AC05AC1EA2763E00C34A75 /* Resources */,
+				F2C778955D02EF2AF9E98B31 /* [CP] Embed Pods Frameworks */,
+				BCF0ABE687588588D976BF46 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYScrollViewSwift;
+			productName = DYScrollViewSwift;
+			productReference = 54AC05AE1EA2763E00C34A75 /* DYScrollViewSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AC05A61EA2763E00C34A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = hoodsound;
+				TargetAttributes = {
+					54AC05AD1EA2763E00C34A75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L26LFEQL7B;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54AC05A91EA2763E00C34A75 /* Build configuration list for PBXProject "DYScrollViewSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54AC05A51EA2763E00C34A75;
+			productRefGroup = 54AC05AF1EA2763E00C34A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AC05AD1EA2763E00C34A75 /* DYScrollViewSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AC05AC1EA2763E00C34A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AC05BC1EA2763E00C34A75 /* LaunchScreen.storyboard in Resources */,
+				54AC05B91EA2763E00C34A75 /* Assets.xcassets in Resources */,
+				545D34071EA88B5200B5D892 /* Podfile in Resources */,
+				54AC05B71EA2763E00C34A75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A6BF4A71703DD92CC2A00C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF0ABE687588588D976BF46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYScrollViewSwift/Pods-DYScrollViewSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C778955D02EF2AF9E98B31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYScrollViewSwift/Pods-DYScrollViewSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AC05AA1EA2763E00C34A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545D340C1EA892D100B5D892 /* XRViewController.swift in Sources */,
+				54AC05B41EA2763E00C34A75 /* ViewController.swift in Sources */,
+				54AC05B21EA2763E00C34A75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54AC05B51EA2763E00C34A75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AC05B61EA2763E00C34A75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54AC05BA1EA2763E00C34A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AC05BB1EA2763E00C34A75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54AC05BE1EA2763E00C34A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54AC05BF1EA2763E00C34A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54AC05C11EA2763E00C34A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE435D4B31E2FCF434A3DA0 /* Pods-DYScrollViewSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = L26LFEQL7B;
+				INFOPLIST_FILE = DYScrollViewSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoodsound.DYScrollViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DYScrollViewSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		54AC05C21EA2763E00C34A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7903807BB073EE7B83FA48DA /* Pods-DYScrollViewSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = L26LFEQL7B;
+				INFOPLIST_FILE = DYScrollViewSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoodsound.DYScrollViewSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DYScrollViewSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AC05A91EA2763E00C34A75 /* Build configuration list for PBXProject "DYScrollViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AC05BE1EA2763E00C34A75 /* Debug */,
+				54AC05BF1EA2763E00C34A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AC05C01EA2763E00C34A75 /* Build configuration list for PBXNativeTarget "DYScrollViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AC05C11EA2763E00C34A75 /* Debug */,
+				54AC05C21EA2763E00C34A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AC05A61EA2763E00C34A75 /* Project object */;
+}
